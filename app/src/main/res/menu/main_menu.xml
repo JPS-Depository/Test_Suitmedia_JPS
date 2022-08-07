@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"
+        android:title="Add">
+    </item>
+    <item
+        android:id="@+id/open_map"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="OpenMap">
+    </item>
+</menu>

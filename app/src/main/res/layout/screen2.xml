@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:background="@drawable/bg_bright"
+        android:paddingLeft="32dp">
+        <TextView
+            android:id="@+id/halo_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hallo,"
+            android:textColor="#525252"
+            android:textSize="24sp"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="9dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_regular"/>
+
+        <TextView
+            android:id="@+id/username_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/halo_text"
+            android:layout_marginBottom="48dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Username"
+            android:textColor="#EC5F00"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_marginTop="71dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vector_3"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vector_2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vector_3"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/choose_Event"
+            android:text="Choose Event"
+            android:textColor="#FFFF"
+            android:textSize="22sp"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button"/>
+        <Button
+            android:id="@+id/choose_Guest"
+            android:text="Choose Guest"
+            android:textColor="#FFFF"
+            android:textSize="22sp"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="244dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="375dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/img_suitmedia"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom = "true"
+        android:background="@drawable/img_bg_bottom"/>
+</RelativeLayout>
